@@ -8,11 +8,11 @@ Asignatura: [nombre de la materia] | Docente: [nombre del docente]
 
 | Integrante | Rol |
 |---|---|
-| Mateo [apellido] | Parte conceptual y cierre del informe |
-| Vicky [apellido] | Marco teórico y conclusiones |
-| Roberto [apellido] | Requisitos y Product Backlog |
-| Yandry [apellido] | Plataforma, infraestructura y control de versiones |
-| Sofía [apellido] | Unificación, trazabilidad y revisión final |
+| Mateo | Parte conceptual y cierre del informe |
+| Vicky | Marco teórico y conclusiones |
+| Roberto | Requisitos y Product Backlog |
+| Yandry | Plataforma, infraestructura y control de versiones |
+| Sofía | Unificación, trazabilidad y revisión final |
 
 ## Enlaces del proyecto
 
