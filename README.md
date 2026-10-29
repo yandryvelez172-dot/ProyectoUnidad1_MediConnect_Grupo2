@@ -1,7 +1,8 @@
 # MediConnect - Sistema de Gestión de Citas Médicas y Telemedicina
 
-Proyecto de Unidad 1 - Ingeniería de Software - **Grupo 2**
-Universidad de las Fuerzas Armadas ESPE
+Proyecto Unidad 1 - Grupo 2\
+Universidad de las Fuerzas Armadas ESPE\
+Asignatura: Modelos de Procesos de Desarrollo de SOFTWARE \
 Docente: Dra. Eleana Jerez Villota
 
 ## Caso asignado
@@ -15,21 +16,20 @@ Docente: Dra. Eleana Jerez Villota
 
 | Integrante | Rol en el proyecto |
 |---|---|
-| Mateo Nicolás Soto Mejía | Parte conceptual y cierre del informe |
-| Vicky [apellidos] | Marco teórico y conclusiones |
-| Roberto Carlos Quishpe Quilca | Requisitos y análisis de ingeniería |
+| Mateo Soto | Parte conceptual y cierre del informe |
+| Victoria Farinango | Marco teórico y conclusiones |
+| Roberto Quishpe | Requisitos y Product Backlog |
 | Yandry Velez | Plataforma, infraestructura y control de versiones |
-| Sofía [apellidos] | Unificación, trazabilidad y revisión final |
+| Sofía | Unificación, trazabilidad y revisión final |
 
 ## Enlaces del proyecto
 
-| Artefacto | Enlace |
-|---|---|
-| Jira (backlog, TEST, bugs y Change Request) | [PEGAR ENLACE] |
-| Confluence (SRS) | [PEGAR ENLACE] |
-| Figma (prototipo navegable) | [PEGAR ENLACE] |
-| draw.io (diagrama de componentes) | [PEGAR ENLACE] |
-| Repositorio GitHub | https://github.com/yandryvelez172-dot/ProyectoUnidad1_MediConnect_Grupo2 |
+- Jira: https://espe-team-qf10cei6.atlassian.net/jira/software/projects/MEDI/boards/35/backlog
+- Confluence (SRS): https://espe-team-qf10cei6.atlassian.net/wiki/x/sgB7AQ
+- Figma (prototipo navegable): https://www.figma.com/design/v9KhRjs2lcXZOKU7s3jv4c/Sin-t%C3%ADtulo?node-id=0-1&t=D39hFdfEPzyb8LEz-1
+- Draw.io (Diagrama de Componentes UML): https://drive.google.com/file/d/10N8OpPBqvSVYA1h2CJ7cJ3HfU3dHaki3/view?usp=sharing
+  <br>**Nota:** Se debe "Abrir con" draw.io
+- Repositorio GitHub: https://github.com/yandryvelez172-dot/ProyectoUnidad1_MediConnect_Grupo2
 
 ## Estructura del repositorio
 
