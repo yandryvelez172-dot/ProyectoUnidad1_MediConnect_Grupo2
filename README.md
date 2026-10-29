@@ -12,7 +12,7 @@ Docente: Dra. Eleana Jerez Villota
 | Mateo | Parte conceptual y cierre del informe |
 | Vicky | Marco teórico y conclusiones |
 | Roberto | Requisitos y Product Backlog |
-| Yandry | Plataforma, infraestructura y control de versiones |
+| Yandry Velez | Plataforma, infraestructura y control de versiones |
 | Sofía | Unificación, trazabilidad y revisión final |
 
 ## Enlaces del proyecto
