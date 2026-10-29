@@ -17,7 +17,7 @@ Docente: Dra. Eleana Jerez Villota
 
 ## Enlaces del proyecto
 
-- Jira: [pegar enlace]
+- Jira: https://espe-team-qf10cei6.atlassian.net/jira/software/projects/MEDI/boards/35/backlog
 - Confluence (SRS): [pegar enlace]
 - Figma (prototipo navegable): [pegar enlace]
 - Draw.io (Diagrama de Componentes UML): [pegar enlace]
