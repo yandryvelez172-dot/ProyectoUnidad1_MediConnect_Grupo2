@@ -1,0 +1,13 @@
+{
+  "name": "mediconnect",
+  "version": "0.1.0",
+  "description": "MediConnect - Sistema de gestión de citas médicas y telemedicina (Proyecto Unidad 1 - Grupo 2)",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check backend/src/citas.js && node --check frontend/app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

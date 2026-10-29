@@ -1,43 +1,79 @@
-# MediConnect - Gestión de citas médicas y telemedicina
+# MediConnect - Sistema de Gestión de Citas Médicas y Telemedicina
 
-Proyecto Unidad 1 - Grupo 2
+Proyecto de Unidad 1 - Ingeniería de Software - **Grupo 2**
 Universidad de las Fuerzas Armadas ESPE
-Asignatura: [nombre de la materia] | Docente: [nombre del docente]
+Docente: Dra. Eleana Jerez Villota
+
+## Caso asignado
+
+**MediConnect**: plataforma para clínicas y centros médicos de consulta externa.
+
+- Alcance base: búsqueda de médicos por especialidad, visualización de disponibilidad, agendamiento de citas presenciales o virtuales, confirmación de cita, recordatorios por correo, consulta de próximas citas y ficha médica básica.
+- Solicitud de cambio (Actividad 4): reprogramación automática cuando el médico registre una emergencia o indisponibilidad.
 
 ## Integrantes
 
-| Integrante | Rol |
+| Integrante | Rol en el proyecto |
 |---|---|
-| Mateo | Parte conceptual y cierre del informe |
-| Vicky | Marco teórico y conclusiones |
-| Roberto | Requisitos y Product Backlog |
-| Yandry | Plataforma, infraestructura y control de versiones |
-| Sofía | Unificación, trazabilidad y revisión final |
+| Mateo Nicolás Soto Mejía | Parte conceptual y cierre del informe |
+| Vicky [apellidos] | Marco teórico y conclusiones |
+| Roberto Carlos Quishpe Quilca | Requisitos y análisis de ingeniería |
+| Yandry Velez | Plataforma, infraestructura y control de versiones |
+| Sofía [apellidos] | Unificación, trazabilidad y revisión final |
 
 ## Enlaces del proyecto
 
-- Jira: [pegar enlace]
-- Confluence (SRS): [pegar enlace]
-- Figma (prototipo navegable): [pegar enlace]
-- Draw.io (Diagrama de Componentes UML): [pegar enlace]
-- Repositorio GitHub: https://github.com/yandryvelez172-dot/ProyectoUnidad1_MediConnect_Grupo2
+| Artefacto | Enlace |
+|---|---|
+| Jira (backlog, TEST, bugs y Change Request) | [PEGAR ENLACE] |
+| Confluence (SRS) | [PEGAR ENLACE] |
+| Figma (prototipo navegable) | [PEGAR ENLACE] |
+| draw.io (diagrama de componentes) | [PEGAR ENLACE] |
+| Repositorio GitHub | https://github.com/yandryvelez172-dot/ProyectoUnidad1_MediConnect_Grupo2 |
 
 ## Estructura del repositorio
 
-- `/frontend`: interfaz de usuario
-- `/backend`: lógica de negocio y servicios
-- `/docs`: documentación (informe, SRS, diagramas)
+```
+/frontend            Interfaz de la maqueta (HTML y JavaScript)
+/backend             Lógica de negocio y pruebas automáticas
+  /src/citas.js      HU-01, HU-02 y HU-03
+  /tests             Pruebas con el módulo node:test
+/docs                Documentación
+  /architecture      Diagrama de componentes (.drawio editable y PNG/PDF)
+  /evidence          Evidencias de pruebas y bugs
+/.github/workflows   Integración continua (GitHub Actions)
+```
 
-## Flujo de trabajo
+## Instrucciones de ejecución
 
-- Rama principal: `main`
-- Cada cambio se desarrolla en una rama `feature/<descripcion-corta>`
-- Todo cambio entra a `main` mediante Pull Request
-- Los commits y PR referencian la clave de Jira (ej. `MC-12`)
+Requisitos: Node.js 18 o superior (solo para las pruebas). La maqueta no necesita instalación.
 
-## Instrucciones
+**Ver la maqueta:** abrir `frontend/index.html` en el navegador (Chrome o Edge).
 
-1. Clonar: `git clone https://github.com/yandryvelez172-dot/ProyectoUnidad1_MediConnect_Grupo2.git`
-2. Crear rama: `git checkout -b feature/nombre-de-la-funcionalidad`
-3. Hacer commit y subir: `git push origin feature/nombre-de-la-funcionalidad`
-4. Abrir un Pull Request hacia `main`
+**Ejecutar las pruebas automáticas:**
+
+```bash
+npm test
+```
+
+**Validar la sintaxis:**
+
+```bash
+npm run check
+```
+
+## Historias de Usuario cubiertas por la maqueta
+
+| Historia | Descripción |
+|---|---|
+| HU-01 | Búsqueda de médicos por especialidad |
+| HU-02 | Visualización de disponibilidad |
+| HU-03 | Agendamiento de cita presencial o virtual |
+
+## Flujo de trabajo (Git)
+
+- Rama principal: `main`. No se trabaja directamente sobre ella.
+- Cada tarea se desarrolla en una rama `feature/<nombre-corto>`; las correcciones de defectos, en `fix/<nombre-corto>`.
+- Todo cambio se integra a `main` mediante Pull Request, con la clave de Jira en el título (por ejemplo, `MEDI-7: ...`).
+- Cada Pull Request ejecuta el workflow de GitHub Actions (`.github/workflows/ci.yml`), que valida la sintaxis y corre las pruebas.
+- Más detalle en [docs/guia-de-contribucion.md](docs/guia-de-contribucion.md).

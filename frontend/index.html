@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MediConnect - Maqueta</title>
+  <style>
+    :root { --azul:#0b5ed7; --fondo:#f4f7fb; --texto:#1b2430; --gris:#6b7685; --error:#b42318; --ok:#067647; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, Segoe UI, Arial, sans-serif; background:var(--fondo); color:var(--texto); }
+    header { background:var(--azul); color:#fff; padding:16px 24px; }
+    header h1 { margin:0; font-size:1.3rem; }
+    header p { margin:4px 0 0; font-size:.9rem; opacity:.9; }
+    main { max-width:820px; margin:24px auto; padding:0 16px; display:grid; gap:20px; }
+    section { background:#fff; border-radius:10px; padding:20px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+    h2 { margin-top:0; font-size:1.05rem; }
+    .tag { font-size:.75rem; color:var(--gris); }
+    label { display:block; margin:8px 0 4px; font-weight:600; font-size:.9rem; }
+    select, input, button { font:inherit; padding:8px 10px; border-radius:6px; border:1px solid #c8d0db; }
+    button { background:var(--azul); color:#fff; border:none; cursor:pointer; margin-top:10px; }
+    button:disabled { background:#9db7e6; cursor:not-allowed; }
+    ul { list-style:none; padding:0; margin:12px 0 0; display:grid; gap:8px; }
+    li.medico { display:flex; align-items:center; gap:12px; padding:10px; border:1px solid #e3e8ef; border-radius:8px; }
+    .foto { width:40px; height:40px; border-radius:50%; background:#dbe7ff; display:grid; place-items:center; font-weight:700; color:var(--azul); }
+    .franjas button { margin:0 6px 6px 0; }
+    .franjas button.sel { outline:3px solid #0b5ed7aa; }
+    .msg { margin-top:12px; padding:10px 12px; border-radius:8px; font-size:.92rem; }
+    .msg.error { background:#fee4e2; color:var(--error); }
+    .msg.ok { background:#d1fadf; color:var(--ok); }
+    .msg.info { background:#eaf1ff; color:#1d3a78; }
+    .row { display:flex; gap:12px; flex-wrap:wrap; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MediConnect</h1>
+    <p>Maqueta funcional &middot; Proyecto Unidad 1 &middot; Grupo 2</p>
+  </header>
+
+  <main>
+    <section id="p-buscar" aria-labelledby="t-buscar">
+      <h2 id="t-buscar">1. Buscar médicos <span class="tag">HU-01</span></h2>
+      <label for="especialidad">Especialidad</label>
+      <select id="especialidad"></select>
+      <button id="btn-buscar">Buscar</button>
+      <div id="resultado-busqueda" aria-live="polite"></div>
+    </section>
+
+    <section id="p-disponibilidad" aria-labelledby="t-disp">
+      <h2 id="t-disp">2. Disponibilidad <span class="tag">HU-02</span></h2>
+      <p id="medico-elegido" class="tag">Elija un médico en el paso 1.</p>
+      <div id="franjas" class="franjas"></div>
+    </section>
+
+    <section id="p-agendar" aria-labelledby="t-agendar">
+      <h2 id="t-agendar">3. Agendar cita <span class="tag">HU-03</span></h2>
+      <div class="row">
+        <div>
+          <label for="paciente">Nombre del paciente</label>
+          <input id="paciente" placeholder="Nombre y apellido">
+        </div>
+        <div>
+          <label for="modalidad">Modalidad</label>
+          <select id="modalidad">
+            <option>Presencial</option>
+            <option>Virtual</option>
+          </select>
+        </div>
+      </div>
+      <button id="btn-agendar" disabled>Confirmar cita</button>
+      <div id="resultado-agenda" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <script src="../backend/src/citas.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
