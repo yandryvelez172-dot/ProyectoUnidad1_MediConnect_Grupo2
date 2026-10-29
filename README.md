@@ -1,7 +1,7 @@
 # MediConnect - Gestión de citas médicas y telemedicina
 
-Proyecto Unidad 1 - Grupo 2
-Universidad de las Fuerzas Armadas ESPE
+Proyecto Unidad 1 - Grupo 2\
+Universidad de las Fuerzas Armadas ESPE\
 Asignatura: [nombre de la materia] | Docente: [nombre del docente]
 
 ## Integrantes
