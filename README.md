@@ -13,7 +13,7 @@ Docente: Dra. Eleana Jerez Villota
 | Victoria Farinango | Marco teórico y conclusiones |
 | Roberto Quishpe| Requisitos y Product Backlog |
 | Yandry Velez | Plataforma, infraestructura y control de versiones |
-| Sofía | Unificación, trazabilidad y revisión final |
+| Sofía Quimuña  | Unificación, trazabilidad y revisión final |
 
 ## Enlaces del proyecto
 
