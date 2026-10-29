@@ -9,7 +9,7 @@ Docente: Dra. Eleana Jerez Villota
 
 | Integrante | Rol |
 |---|---|
-| Mateo | Parte conceptual y cierre del informe |
+| Mateo Soto | Parte conceptual y cierre del informe |
 | Vicky | Marco teórico y conclusiones |
 | Roberto Quishpe| Requisitos y Product Backlog |
 | Yandry Velez | Plataforma, infraestructura y control de versiones |
