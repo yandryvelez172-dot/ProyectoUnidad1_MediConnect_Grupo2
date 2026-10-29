@@ -19,7 +19,7 @@ Docente: Dra. Eleana Jerez Villota
 
 - Jira: https://espe-team-qf10cei6.atlassian.net/jira/software/projects/MEDI/boards/35/backlog
 - Confluence (SRS): https://espe-team-qf10cei6.atlassian.net/wiki/x/sgB7AQ
-- Figma (prototipo navegable): https://www.figma.com/design/v9KhRjs2lcXZOKU7s3jv4c/Sin-t%C3%ADtulo?node-id=0-1&t=D39hFdfEPzyb8LEz-1
+- Figma (prototipo navegable): https://www.figma.com/proto/v9KhRjs2lcXZOKU7s3jv4c?node-id=0-1&t=EJXp0ckBSWS4rCID-6
 - Draw.io (Diagrama de Componentes UML): https://drive.google.com/file/d/10N8OpPBqvSVYA1h2CJ7cJ3HfU3dHaki3/view?usp=sharing
   <br>**Nota:** Se debe "Abrir con" draw.io
 - Repositorio GitHub: https://github.com/yandryvelez172-dot/ProyectoUnidad1_MediConnect_Grupo2
