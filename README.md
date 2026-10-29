@@ -2,7 +2,8 @@
 
 Proyecto Unidad 1 - Grupo 2\
 Universidad de las Fuerzas Armadas ESPE\
-Asignatura: [nombre de la materia] | Docente: [nombre del docente]
+Asignatura: Modelos de Procesos de Desarrollo de SOFTWARE \
+Docente: Dra. Eleana Jerez Villota
 
 ## Integrantes
 
